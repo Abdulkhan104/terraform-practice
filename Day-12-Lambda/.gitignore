@@ -1,0 +1,32 @@
+# Local .terraform directories
+.terraform/
+
+# Terraform State files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude override files as they are usually local
+*.tfvars
+*.tfvars.json
+
+# Exclude plan output files
+*.tfplan
+
+# Sensitive variable files (optional, if you store secrets locally)
+secrets.auto.tfvars
+*.auto.tfvars
+
+# Logs
+*.log
+
+# Ignore provider binaries accidentally downloaded
+*.exe
+*.zip
+
+.terraform/
+
